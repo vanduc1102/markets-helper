@@ -1,0 +1,26 @@
+.cell-instrument-name.instrument-name, .cell-instrument-name-with-change.instrument-name-with-change {
+	position: relative !important;
+}
+span.markets-helper-price{
+	position: absolute;
+	left: 2px;
+	top: 2px;
+	font-size: 10px;
+}
+span.markets-helper-price.need-update-up {
+	color:red;
+	font-weight: bold;
+}
+span.markets-helper-price.need-update-down {
+	color:green;
+	font-weight: bold;
+}
+.portfolio-overview span.markets-helper-price{
+	position: relative;
+	right: 50px;
+	top: -15px;
+}
+.market-card-ph span.markets-helper-price{
+	right: 10px;
+	top: 0;
+}
